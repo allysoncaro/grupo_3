@@ -1,0 +1,101 @@
+html, body {
+  background-color: rgba(199, 191, 191, 0.914);
+}
+/*html{
+  text-align: center;/*Centre todos los elementos
+}*/
+.parrafo-i {
+  background-color: yellow;
+  text-align: center;
+  
+}
+/*margen superior e inferior 0px // izq y der 70px para separación entre botones*/
+.menu-item{
+  display: inline;
+  margin: 0px 50px;
+  background-color: rgb(0, 115, 128);
+}
+.div-nav{
+  background-color: rgb(176, 176, 188);
+  width: auto;
+  height: 30px;
+  padding: 30px;
+}
+.tarjeta-i {
+  display: inline-block;
+  background-color: rgb(1, 51, 74);
+  margin: 50px 30px;
+  width: 250px;
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+}
+.tarjeta-i h1 {
+  margin-bottom: 15px;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  color: white;
+}
+.tarjeta-i img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  padding: 5px;
+}
+.tarjeta-i p {
+  font-size: 14px;
+  margin-top: 5px;
+  padding: 5px;
+}
+.tarjeta-i button {
+  background-color: aqua;  
+  color: black;             
+  padding: 10px 20px;       
+  border-radius: 5px;       
+  cursor: pointer;  /* cambia el cursor a mano */
+  margin-bottom: 5px;          
+}
+/* efecto hover */
+.tarjeta-i button:hover {
+  background-color: darkcyan;
+  color: white;
+}
+#prueba {
+  display: inline-block;
+  background-color: rgb(1, 51, 74);
+  margin: 50px 30px;
+  width: 250px;
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+}
+#prueba h1 {
+  margin-bottom: 15px;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  color: white;
+}
+#prueba img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  padding: 5px;
+}
+#prueba p {
+  font-size: 14px;
+  margin-top: 5px;
+  padding: 5px;
+}
+#prueba button {
+  background-color: aqua;   /* color de fondo */
+  color: black;             /* color del texto */
+  border: none;             /* sin borde */
+  padding: 10px 20px;       /* espacio interno */
+  border-radius: 5px;       /* esquinas redondeadas */
+  cursor: pointer;          /* cambia el cursor a mano */
+}
+#prueba button:hover {
+  color: white;
+  background-color: darkblue;
+  cursor: pointer;
+}

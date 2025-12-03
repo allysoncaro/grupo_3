@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinePedia</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/luna.ico">
+</head>
+<body>
+    <header>
+    <h1 style="color:rgb(104, 50, 185)">CinePedia </h1>
+    <h2>Formulario de contacto</h1>
+    <nav>
+    <ul>
+    <li><a href="index.html">Inicio</a></li>
+    </ul>
+    </nav>      
+</header>
+    <main>
+      <form action="/enviar" method="post">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="email">Correo electrónico:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="telefono">Teléfono:</label><br>
+    <input type="tel" id="telefono" name="telefono"><br><br>
+
+    <label for="motivo">Motivo:</label><br>
+    <select id="motivo" name="motivo" required>
+      <option value="">Seleccione una opción</option>
+      <option value="soporte">Soporte</option>
+      <option value="cotizacion">Cotización</option>
+      <option value="consulta">Consulta general</option>
+      <option value="otro">Otro</option>
+    </select><br><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="5" cols="40" required></textarea><br><br>
+
+    <input type="checkbox" id="consent" name="consent" required>
+    <label for="consent">Acepto la política de privacidad</label><br><br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpiar">
+  </form>
+    
+    </main>
+    <footer>
+        <p>&copy; 2025 Todos los derechos reservados</p>
+        <a href="https://www.imdb.com/es/list/ls069069166/" target="_blank">Ir a web de fan de Crepúsculo</a>
+        
+        <a href="https://x.com" target="_blank">
+            <img src="https://i.blogs.es/b4eb3e/x-linda/1366_2000.jpeg"
+                 alt="X" width="40">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" 
+         alt="Instagram" width="40">   
+        </a>
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" 
+                 alt="Facebook" width="40">
+        </a>
+    </footer>
+</body>
+</html>
+
+

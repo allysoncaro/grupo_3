@@ -1,0 +1,87 @@
+html{
+        background-color: #040404;
+}
+header h1,h2{
+  color: rgb(186, 10, 10);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-color: #1d1c1c;
+}
+header nav{
+    background-color: rgb(30, 12, 12);
+    height: 30px;
+}
+.contenedor-ul {
+  display: flex;
+  flex-wrap: wrap;        /* permite que se acomoden si no caben */
+  justify-content: center;/* centra horizontalmente */
+  list-style: none;       /* quita los puntos de la lista */
+  padding-top: 5px;
+
+}
+.contenedor-ul li {
+  margin: 0 15px;         /* espacio entre los ítems */
+}
+.contenedor{
+/*Con display flex y flex-wrap:wrap organizamos las tarjetas para que tengan un orden*/
+display: flex;/*organiza las tarjetas y las encierra con su contenido, por si sola si se ajusta la pantalla se pierde contenido */
+flex-wrap: wrap; /*esto permite que se ajuste las cajas al tamaño de la pantalla*/
+/*flex-direction:column;*//*podemos organizar las tarjetas en columnas*/
+justify-content: center; /*Centramos las tarjetas*/
+/*Contenedor contendría las tarjetas o cajas*/
+}
+.box{   
+border-radius: 10px;/*agregamos en las esquinas un borde redondeado de las tarjetas*/
+ background-color: rgb(1, 51, 74);
+margin: 20px 50px;
+width: 230px;
+height: auto;
+display: flex;
+flex-direction: column;   /* mantiene h1, img, p, button en columna */
+align-items: center;
+}
+.box h1{
+ font-family: 'Lobster', cursive;
+ font-size: 30px;
+ color: white;
+ text-align: center;
+}
+.box img{
+    width: 200px;
+    height: 100px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.box p{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
+.box button{
+  background-color: aqua;   /* color de fondo */
+  color: black;             /* color del texto */
+  /*border: none;  */           /* sin borde */
+  border-radius: 5px;       /* esquinas redondeadas */
+  cursor: pointer;          /* cambia el cursor a mano */
+  /*display: block;/* el botón deja de ser inline y se comporta como un bloque */
+ /* margin: 0 auto;*/  /* aplica márgenes automáticos a izquierda y derecha */
+}
+/* efecto hover */
+.box button:hover {
+  background-color: darkcyan;
+  color: white;
+}
+/*Centramos todo en footer*/
+footer{
+    text-align: center;
+    background-color: #2E2A2A;
+    padding: 0px;
+    margin: 0px;
+}
+footer p{
+
+    font-size: 20px;
+}
+
